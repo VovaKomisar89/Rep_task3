@@ -1,0 +1,123 @@
+
+
+/**********************Header**********************************************/
+
+#header-nav {
+	background-color: #808080;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding: 0;
+	margin: 20px 0px 20px 0px;
+}
+
+.navbar-brand h1 { /*Brand name*/
+	font-family: Comic Sans MS, Helvetica, sans-serif;
+	color: black;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+
+#nav-list {
+	text-align: center;
+}
+
+#nav-list a {
+	color: black;
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+	font-style: italic;
+}
+
+#nav-list a:hover {
+	background: #e7e7e7;
+}
+
+/* зміна кольору для toogler*/
+.container button.navbar-toggler {
+  border: 1px solid black;
+}
+
+.navbar-toggler{
+    width: 57px;
+    height: 44px;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.navbar-toggler:active {
+   background-color: #fff;
+}
+/*END зміна кольору для toogler*/
+
+/**********************END Header******************************************/
+
+
+
+/**********************Main Content****************************************/
+
+.title {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.title h1 {
+	font-family: Comic Sans MS, Helvetica, sans-serif;
+	color: #8B4513;
+	font-size: 2em;
+}
+
+.box {
+	background-color: #D3D3D3;
+	border: 1px solid black;
+	height: 700px;
+	overflow: auto;
+	margin: 20px 0px 20px 0px;
+	padding: 10px;
+}
+
+.box h3 {
+	text-align: center;
+	color: black;
+	font-size: 1.6em;
+	font-family: Comic Sans MS, Helvetica, sans-serif;
+}
+
+.box_2 {
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	margin: 0px;
+}
+
+
+/**********************END Main Content************************************/
+
+
+
+
+/*****************************************DEVICES*********************************************/
+
+
+
+/******************************************* Extra Small devices only **********/
+@media (max-width: 767px){
+	.box {
+		margin: 20px 30px 20px 30px;
+	}
+}
+
